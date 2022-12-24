@@ -192,3 +192,85 @@ nav {
 .logo {
     width: 140px;
 }
+
+
+
+/* features-section  */
+
+.features-section {
+    background-image: url(/assets/asset\ 34.svg);
+    /* height: 100%; */
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-header {
+    text-align: center;
+    margin: 80px var(--padding-inline-section) 0;
+}
+
+.see-all-features-btn  {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.features-area {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.features-card{
+    flex-direction: column;
+    gap: 15px;
+    max-width: 32%;
+    text-align: center;
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+}
+
+
+/* Big-Features  */
+
+.big-features-section {
+    margin: 50px var(--padding-inline-section) 0;
+}
+
+.big-feature-container {
+    gap: 30px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+
+.feature-img img {
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+
+.quote>p {
+    margin-top: 20px;
+}
+
+.feature-desc {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.emp-review {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic img {
+    width: 75px;
+}
+
+.big-feature-container-rev {
+    flex-direction: row-reverse;
+    gap: 30px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+
