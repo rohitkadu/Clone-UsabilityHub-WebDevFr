@@ -354,3 +354,12 @@ nav {
 .blue-list {
     margin-left: 20px;
 }
+    
+
+/* cta  */
+
+.cta {
+    font-size: 1.25rem;
+    flex-direction: column;
+    gap: 30px;
+}
