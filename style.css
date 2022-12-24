@@ -174,3 +174,21 @@ nav {
 .header-right img {
     width: 600px;
 }
+
+
+/* companies sceion  */
+
+.companies-header {
+    text-align: center;
+    margin: 30px;
+}
+
+
+.logos {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 140px;
+}
