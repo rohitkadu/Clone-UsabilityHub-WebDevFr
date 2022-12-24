@@ -81,7 +81,7 @@ nav {
 
 .company-logo {
     height: 100%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 .company-logo img {
@@ -362,4 +362,62 @@ nav {
     font-size: 1.25rem;
     flex-direction: column;
     gap: 30px;
+}
+
+/* footer section  */
+
+.footer-bg-1 {
+    width: 100%;
+    background-color: #ebf2fa;
+    padding: 80px 0;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+.main-footer {
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* margin-bottom: 20px; */
+
+
+    /* #b9cde4 */
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap:5px;
+
+}
+
+.link-column>h4 {
+    margin-bottom: 25px;
+}
+.foo-logo>img {
+    width: 150px;
+}
+
+.footer-bg-2 {
+    background-color: #b9cde4;
+    padding: 20px;
+}
+
+.sub-footer {
+   gap: 30px;
+   flex-basis: 25%;
+   justify-content: space-between;
+   -ms-flex-align: end;
+}
+
+.icons {
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.ico img {
+    width: 16px ;
 }
