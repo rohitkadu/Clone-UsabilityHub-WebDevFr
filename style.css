@@ -274,3 +274,83 @@ nav {
     margin-top: 20px;
 }
 
+
+
+/* Examples section  */
+
+.examples-section {
+    margin: 50px var(--padding-inline-section) 0;
+}
+
+.examples-area{
+    gap: 20px;
+}
+
+.examples-header>h1 {
+    text-align: center;
+}
+
+.examples-header {
+    font-size: 1.5rem;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.examples-card {
+    width: 23%;
+    position: relative;
+    background-color: black;
+    min-height: 300px;
+    background: linear-gradient( rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(/assets/asset\ 36.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    transition: 0.5s ease-out;
+}
+
+.examples-card:hover{
+    box-shadow: 0 0 20px black;
+}
+
+
+.card-text {
+    color: var(--white);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+
+
+/* Blue Info Section  */
+
+.blue-info-section {
+    width: 100%;
+    background-color: #183b54;
+    color: var(--white) !important;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 60px 0;
+}
+
+.blue-left>p{
+    color: grey !important;
+}
+
+.blue-img img {
+    width: 100%;
+}
+
+.blue-left{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.blue-left>ul{
+    list-style: circle;
+    margin-bottom: 20px;
+}
+
+.blue-list {
+    margin-left: 20px;
+}
